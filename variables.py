@@ -51,7 +51,7 @@ desk = {'yum':[
 
 ],
 'rpm': [
-'-iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm',
+'-iUvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm',
 '-iUvh https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm',
 
 
@@ -101,7 +101,7 @@ server = {'yum':[
 
 ],
 'rpm': [
-    '-iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-8.noarch.rpm',
+    '-iUvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm',
     '-iUvh https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-centos96-9.6-3.noarch.rpm',
 
 ]
