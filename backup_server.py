@@ -268,7 +268,7 @@ class Fedora22(object):
         self.install_rpm()
         self.update()
         self.get_google()
-        # self.get_hipchat()
+        self.get_hipchat()
         self.install_yum()
         self.install_pip()
         self.set_email_active()
