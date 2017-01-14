@@ -48,6 +48,7 @@ desk = {'yum':[
 
     'python-pcapng==0.1a0',
     'imqtt',
+    'mock'
 
 ],
 'rpm': [
@@ -69,7 +70,7 @@ server = {'yum':[
     'python-devel',
     'scipy',
     'python-matplotlib.x86_64',
-    'python-psycopg2.x86_64',
+    'python-psycopg2.x86_64 python-psycopg2-doc.x86_64',
     'postgresql96*',
     'postgis2*',
     'terminator',
@@ -95,6 +96,7 @@ server = {'yum':[
     'cogent==1.5.3',
 
     'ipython==2.2.0',
+    'mock'
 
 
 
