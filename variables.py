@@ -24,7 +24,9 @@ desk = {'yum':[
     'postgresql96*',
     'postgis2*',
     'pgadmin3.x86_64',
-    'qgis.x86_64'
+    'qgis.x86_64',
+    'unixODBC-devel',
+    'python-twisted-*'
 
 ]
     ,
@@ -48,7 +50,8 @@ desk = {'yum':[
 
     'python-pcapng==0.1a0',
     'imqtt',
-    'mock'
+    'mock',
+    'pyodbc==3.1.1'
 
 ],
 'rpm': [
@@ -73,7 +76,9 @@ server = {'yum':[
     'postgresql96*',
     'postgis2*',
     'terminator',
-    'python-lxml.x86_64'
+    'python-lxml.x86_64',
+    'unixODBC-devel',
+    'python-twisted-*'
 
    
 
@@ -92,7 +97,8 @@ server = {'yum':[
     'termcolor',
     'cogent==1.5.3',
     'ipython==2.2.0',
-    'mock'
+    'mock',
+    'pyodbc==3.1.1'
 
 
 
