@@ -65,7 +65,6 @@ server = {'yum':[
     'gcc-c++.x86_64',
     'gdal-devel gdal-python.x86_64',
     'pip', 'python-pip',
-    '*python-nose*',
     'freetype.x86_64  freetype-devel.x86_64',
     'python-devel',
     'scipy',
@@ -74,19 +73,17 @@ server = {'yum':[
     'postgresql96*',
     'postgis2*',
     'terminator',
-    'python-lxml.x86_64',
+    'python-lxml.x86_64'
 
-    'pgadmin3.x86_64',
+   
 
 ] ,
 'pip':[
-    'fiona',
+     'fiona',
     'shapely',
     'pandas==0.16.2 scikit-learn',
     'tornado',
     'pyzmq',
-
-    'python-pcapng==0.1a0',
     'scapy==2.3.2',
     'functools32==3.2.3.post2',
     'geojson==1.3.2',
@@ -94,10 +91,8 @@ server = {'yum':[
     'pyproj==1.9.5.1',
     'termcolor',
     'cogent==1.5.3',
-
     'ipython==2.2.0',
     'mock'
-
 
 
 
